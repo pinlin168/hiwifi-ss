@@ -14,10 +14,10 @@ echo ''
 
 if [ $1 == "12515805s" ]; then
     echo ">1.2.5.15805s"
-    curl -k https://raw.githubusercontent.com/qiwihui/hiwifi-ss/master/ss.12515805s.tar.gz -o ss.tar.gz
+    curl -k https://raw.githubusercontent.com/qiwihui/pinlin168/master/ss.12515805s.tar.gz -o ss.tar.gz
 else
     echo "<1.2.5.15805s"
-    curl -k https://raw.githubusercontent.com/qiwihui/hiwifi-ss/master/ss.tar.gz -o ss.tar.gz
+    curl -k https://raw.githubusercontent.com/qiwihui/pinlin168/master/ss.tar.gz -o ss.tar.gz
 fi
 
 echo 'Done! 下载完成'
