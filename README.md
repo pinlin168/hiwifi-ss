@@ -11,13 +11,13 @@
 2. 新版hiwifi => 使用项目根目录下的 `shadow.sh` 脚本进行安装, 建议使用以下一键命令:
 
    ```sh
-   cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/qiwihui/hiwifi-ss/master/shadow.sh && sh shadow.sh && rm shadow.sh
+   cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/pinlin168/hiwifi-ss/master/shadow.sh && sh shadow.sh && rm shadow.sh
    ```
 
 3.  hiwifi 1.2.5.15805s 
 
    ```sh
-   cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/qiwihui/hiwifi-ss/master/shadow.sh && sh shadow.sh 12515805s && rm shadow.sh
+   cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/pinlin168/hiwifi-ss/master/shadow.sh && sh shadow.sh 12515805s && rm shadow.sh
    ```
 
 ### 如何在服务器端启用`chacha20`的支持：
